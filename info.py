@@ -48,7 +48,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aloneboy:Aloneboytg@cluster0.nmeelsr.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', " ")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Dpbotz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DP_BOTZ')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_downlode_dpbots')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001789244683'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' '))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'All_Tamil_movies_request')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
